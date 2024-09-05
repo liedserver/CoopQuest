@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 350px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.game-thumbnail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px #05b4a4;
+    transition: transform 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    max-width: 300px; /* Define a maximum width */
+    margin: 20px; /* Add margin to separate from other content */
+    margin-bottom: 500px;
+}
+
+
+.game-thumbnail:hover {
+    transform: scale(1.05);
+}
+
+.game-thumbnail img {
+    width: 100%; /* Adjust the image to the container width */
+    height: auto;
+    border-radius: 4px;
+}
+
+.game-title {
+    margin-top: 10px;
+    font-size: 24px; /* Increase font size */
+    font-weight: bold;
+    color: #333;
+}
